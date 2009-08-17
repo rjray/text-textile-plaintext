@@ -25,12 +25,13 @@ package App::Textile2x;
 
 use 5.006001;
 use strict;
+use warnings;
 use vars qw($VERSION %FORMATS);
 use subs qw(new version leftmargin rightmargin convert);
 
 use Scalar::Util 'reftype';
 
-$VERSION = '0.100';
+$VERSION = '0.101';
 $VERSION = eval $VERSION;    ## no critic
 
 %FORMATS = (

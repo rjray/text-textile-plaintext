@@ -24,6 +24,7 @@ package Text::Textile::PostScript;
 
 use 5.008;
 use strict;
+use warnings;
 use vars qw($VERSION @EXPORT @EXPORT_OK);
 use subs qw(new textile);
 use base qw(Exporter Text::Textile::Plaintext);
@@ -31,7 +32,7 @@ use base qw(Exporter Text::Textile::Plaintext);
 use Scalar::Util qw(blessed reftype);
 require HTML::FormatPS;
 
-$VERSION   = '0.100';
+$VERSION   = '0.101';
 $VERSION   = eval $VERSION;    ## no critic
 @EXPORT    = ();
 @EXPORT_OK = qw(textile);

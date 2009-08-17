@@ -27,6 +27,7 @@ package Text::Textile::Plaintext;
 
 use 5.008;
 use strict;
+use warnings;
 use vars qw($VERSION @EXPORT @EXPORT_OK);
 use subs qw(new textile treebuilder formatter);
 use base qw(Exporter Text::Textile);
@@ -35,7 +36,7 @@ use Scalar::Util qw(blessed reftype);
 require HTML::TreeBuilder;
 require HTML::FormatText;
 
-$VERSION   = '0.100';
+$VERSION   = '0.101';
 $VERSION   = eval $VERSION;    ## no critic
 @EXPORT    = ();
 @EXPORT_OK = qw(textile);
