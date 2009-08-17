@@ -42,7 +42,7 @@ my $builder = $class->new(
     license        => 'perl',
     dist_author    => 'Randy J. Ray <rjray@blackperl.com>',
     dist_abstract  => 'Convert Textile markup to plain-text, PS or RTF output',
-    dist_version   => '0.100',
+    dist_version   => '0.101',
     build_requires => {
         'Test::More'    => '0.80',
     },
