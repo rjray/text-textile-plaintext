@@ -32,7 +32,7 @@ use base qw(Exporter Text::Textile::Plaintext);
 use Scalar::Util qw(blessed reftype);
 require HTML::FormatRTF;
 
-$VERSION   = '0.101';
+$VERSION   = '0.102';
 $VERSION   = eval $VERSION;    ## no critic
 @EXPORT    = ();
 @EXPORT_OK = qw(textile);
@@ -69,7 +69,7 @@ sub new
     }
     else
     {
-        $args{formatter} = HTML::FormatPS->new();
+        $args{formatter} = HTML::FormatRTF->new();
     }
 
     $class->SUPER::new(%args);
