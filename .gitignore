@@ -5,6 +5,11 @@ blib
 ChangeLog
 MANIFEST
 META.yml
+META.json
+MYMETA.yml
+MYMETA.json
 Makefile.PL
 Makefile
 pm_to_blib
+.project
+cover_db
