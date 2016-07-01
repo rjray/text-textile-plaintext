@@ -67,7 +67,7 @@ my $builder = $class->new(
             bugtracker =>
               'http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Textile-Plaintext',
             repository =>
-              'http://github.com/rjray/text-textile-plaintext/tree/master',
+              'http://github.com/rjray/text-textile-plaintext',
         }
     },
 
